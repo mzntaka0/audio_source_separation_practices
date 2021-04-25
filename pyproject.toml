@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "audio_source_separation_practices"
+version = "0.1.0"
+description = ""
+authors = ["Takao Mizuno <takao.mizuno110@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+numpy = "^1.20.2"
+scipy = "^1.6.2"
+matplotlib = "^3.4.1"
+sounddevice = "^0.4.1"
+pyroomacoustics = "^0.4.3"
+nara-wpe = "^0.0.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
